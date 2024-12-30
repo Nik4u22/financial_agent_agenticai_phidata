@@ -22,21 +22,31 @@ Generate API Keys
 
 ### 1. Set up Conda env - VSCode Terminal
 conda create -p venv python==3.12
+
 conda activate venv
 
 ### 2. Set API Keys - SETX Cmd
 setx GROQ_API_KEY gsk_aDoqRSbs8DyVkL3jqcsgWGdyb3FYByyrufOT10pRi
+
 setx OPENAI_API_KEY sk-proj-gat1or4_7vKeCE89Fiy93PwCY9pKZcAsFIWKoHY49dKpcyvjjB49SsQICRHgHRQNOWxyPw5oUFT3BlbkFJxe6Etl
 
 ### 3. Create requirements.txt file - add required libraries
 phidata
+
 python-dotenv
+
 yfinance
+
 packaging
+
 duckduckgo-search
+
 fastapi
+
 uvicorn
+
 groq
+
 openai
 
 ### 4. Create .env file to handle API Keys
