@@ -31,6 +31,9 @@ setx GROQ_API_KEY gsk_aDoqRSbs8DyVkL3jqcsgWGdyb3FYByyrufOT10pRi
 setx OPENAI_API_KEY sk-proj-gat1or4_7vKeCE89Fiy93PwCY9pKZcAsFIWKoHY49dKpcyvjjB49SsQICRHgHRQNOWxyPw5oUFT3BlbkFJxe6Etl
 
 ### 3. Create requirements.txt file - add required libraries
+
+#### cmd> pip install -r requirements.txt
+
 phidata
 
 python-dotenv
